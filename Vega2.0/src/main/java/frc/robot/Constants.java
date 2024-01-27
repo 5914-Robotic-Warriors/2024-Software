@@ -14,7 +14,7 @@ package frc.robot;
  */
 public final class Constants {
 
-  public static double T_Cam;
+  public static double T_Cam = 35;
 
   public static final double driveDeadband = 0.15;
 
@@ -24,7 +24,7 @@ public final class Constants {
     public static final int kDriverControllerPort = 0;
   }
   public static class FieldConstants {
-    public static double H_Tag;
+    public static double H_Tag = 57;
   }
   public static class CanIDs {
 
